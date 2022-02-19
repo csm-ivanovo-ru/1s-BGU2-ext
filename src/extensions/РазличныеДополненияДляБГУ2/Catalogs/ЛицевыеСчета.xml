@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<Catalog uuid="e2131cab-0f13-4935-95c5-eaef15589849">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЛицевыеСчета" category="Object">
+				<xr:TypeId>cccc0bb9-cc11-4b67-8c8b-c877a3c04c47</xr:TypeId>
+				<xr:ValueId>cdc9a522-2214-4960-97c9-58b229e5c958</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЛицевыеСчета" category="Ref">
+				<xr:TypeId>f5c3529e-c77b-4bfc-8c99-f1dc3a879fdb</xr:TypeId>
+				<xr:ValueId>2a3ad186-88fa-4261-b575-d47604b84273</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЛицевыеСчета" category="Selection">
+				<xr:TypeId>a4e50d2d-edf2-42fb-8846-bc9d6f53eecb</xr:TypeId>
+				<xr:ValueId>227094fa-e369-4ce7-803a-c56cd6d0b491</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЛицевыеСчета" category="List">
+				<xr:TypeId>9465abfb-8f8f-43d5-a033-5988186aafdf</xr:TypeId>
+				<xr:ValueId>76d7fd97-32a1-4b86-8448-0ff6f279b3c7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЛицевыеСчета" category="Manager">
+				<xr:TypeId>de42f2d7-c64a-4ec5-a11e-20d61ba1f7e6</xr:TypeId>
+				<xr:ValueId>a717cc46-4351-47c1-82ec-8d107662a3d9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЛицевыеСчета</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>e7aa196d-a3b1-4f92-8bc0-4c832b617e22</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>
