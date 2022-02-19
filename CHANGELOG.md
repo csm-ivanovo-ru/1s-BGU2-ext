@@ -8,12 +8,33 @@
 
 ## [Unreleased] Неопубликованные изменения (не вошедшие в релиз)
 
+## [1.1.0]
+
+### Добавлено
+
+- команда "Объединить выделенные..." в формы списков следующих объектов
+  [#1](https://github.com/csm-ivanovo-ru/1s-BGU2-ext/issues/1)
+
+  - банковские и казначейские счета
+  - лицевые счета
+  - казначейства
+  - договоров
+  - контрагенты
+  - номенклатура
+  - подразделения
+  - сотрудники
+  - физические лица
+  - юридические лица
+  - акты выполненных работ
+  - счета-фактуры выданные
+
 ## [1.0.0]
 
 ### Добавлено
 
 - команда "Объединить выделенные..." в форму списка счетов на оплату
+  [#1](https://github.com/csm-ivanovo-ru/1s-BGU2-ext/issues/1)
 
-[Unreleased]: https://github.com/csm-ivanovo-ru/1s-BGU2-ext/compare/1.0.0...HEAD
-[1.0.1]: https://github.com/csm-ivanovo-ru/1s-BGU2-ext/compare/1.0.0...1.0.1
+[Unreleased]: https://github.com/csm-ivanovo-ru/1s-BGU2-ext/compare/1.1.0...HEAD
+[1.1.0]: https://github.com/csm-ivanovo-ru/1s-BGU2-ext/compare/1.0.0...1.1.0
 [1.0.0]: https://github.com/csm-ivanovo-ru/1s-BGU2-ext/releases/tag/1.0.0
