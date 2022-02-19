@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.13">
+	<ConfigVersions>
+		<Metadata name="CommonModule.ПоискИУдалениеДублейПереопределяемый" id="76e20445-51c5-44b3-b9b2-1a0a66cf4d70" configVersion="40059eb0ca5eddad3b68ec05125f5e8e6da0cc00"/>
+		<Metadata name="CommonModule.ПоискИУдалениеДублейПереопределяемый.Module" id="76e20445-51c5-44b3-b9b2-1a0a66cf4d70.0" configVersion="a2e3dae460e78f6205b15eddfe3e713de77e0eb7"/>
+		<Metadata name="Configuration.РазличныеДополненияДляБГУ2" id="564e11d8-e287-40cc-92a7-49099bb74b6b" configVersion="6c2b2c16e6d6abac0f5abe81ec20d3ecf97b450d"/>
+		<Metadata name="Document.СчетНаОплату" id="b7ad0621-b1fd-477b-a440-54fb7f51b785" configVersion="2fbade5703e3f12a3ff901c9af5387d3ff87596e"/>
+		<Metadata name="Language.Русский" id="08ea9211-c9ba-457a-b0c5-5a9551ed7eeb" configVersion="4eedbb2803fa3ca02b0e53b6e6f9bef109a871b9"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
