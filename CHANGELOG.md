@@ -12,7 +12,7 @@
 
 ### Добавлено
 
-- описание функционала первой версии
+- команда "Объединить выделенные..." в форму списка счетов на оплату
 
 [Unreleased]: https://github.com/csm-ivanovo-ru/1s-BGU2-ext/compare/1.0.0...HEAD
 [1.0.1]: https://github.com/csm-ivanovo-ru/1s-BGU2-ext/compare/1.0.0...1.0.1
