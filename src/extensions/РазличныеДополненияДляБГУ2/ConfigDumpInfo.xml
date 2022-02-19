@@ -1,10 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.13">
 	<ConfigVersions>
+		<Metadata name="Catalog.БанковскиеИКазначейскиеСчета" id="829174c3-4916-42ab-a308-d15835df3f61" configVersion="c7cef55024fcd89956ffd2f68260e6fadb755c7e"/>
+		<Metadata name="Catalog.Договоры" id="e9db4888-985d-42e8-b81a-c58714536ff1" configVersion="5115559e8f28fa741655b9de4702722411377ecc"/>
+		<Metadata name="Catalog.Казначейства" id="6e09ee0d-2feb-4976-a36f-2d98dbca1e7e" configVersion="6284bfba9343497be0f88812ffb2f41a614ed203"/>
+		<Metadata name="Catalog.Контрагенты" id="7d014f34-08b8-40cd-8500-ba1fbb0b9d83" configVersion="3aa60ec24a6987d5035bca44932f42ea15a65145"/>
+		<Metadata name="Catalog.ЛицевыеСчета" id="e2131cab-0f13-4935-95c5-eaef15589849" configVersion="279a10623fcaa91de2b7b5c12cf5fdb6d7bff366"/>
+		<Metadata name="Catalog.Номенклатура" id="efc534e7-a54a-46e1-bcfa-ec022563ca36" configVersion="1e29dcb6ea3273250527e949b49292b3cbfd36c5"/>
+		<Metadata name="Catalog.Подразделения" id="5095eb98-b4cd-48a3-8675-680f4dc3d0ff" configVersion="e99baeae908216f6f476697c8e5e2c1ade12b457"/>
+		<Metadata name="Catalog.Сотрудники" id="ef0ec8c0-af64-4094-a864-17afcaa4aa30" configVersion="9f6931ded8df0f22a09cb98006528920731e77c9"/>
+		<Metadata name="Catalog.ФизическиеЛица" id="0476d4fe-a964-428d-b160-b6d31d14da0d" configVersion="f9775dc17e97ae193a105f1266a4123512a9eefb"/>
+		<Metadata name="Catalog.ЮридическиеЛица" id="45136e25-74af-43b4-8faf-473175b1ae81" configVersion="d5606450c03dae10ee07c2d9a26dd146a0c6b49e"/>
 		<Metadata name="CommonModule.ПоискИУдалениеДублейПереопределяемый" id="76e20445-51c5-44b3-b9b2-1a0a66cf4d70" configVersion="40059eb0ca5eddad3b68ec05125f5e8e6da0cc00"/>
-		<Metadata name="CommonModule.ПоискИУдалениеДублейПереопределяемый.Module" id="76e20445-51c5-44b3-b9b2-1a0a66cf4d70.0" configVersion="a2e3dae460e78f6205b15eddfe3e713de77e0eb7"/>
-		<Metadata name="Configuration.РазличныеДополненияДляБГУ2" id="564e11d8-e287-40cc-92a7-49099bb74b6b" configVersion="6c2b2c16e6d6abac0f5abe81ec20d3ecf97b450d"/>
+		<Metadata name="CommonModule.ПоискИУдалениеДублейПереопределяемый.Module" id="76e20445-51c5-44b3-b9b2-1a0a66cf4d70.0" configVersion="00900fe96e55af5700041c62a42e1271e292008f"/>
+		<Metadata name="Configuration.РазличныеДополненияДляБГУ2" id="564e11d8-e287-40cc-92a7-49099bb74b6b" configVersion="ea11318b47998f9cd32af62904279e984b7d3198"/>
+		<Metadata name="Document.АктОбОказанииУслуг" id="fd8261e5-54b1-4c8e-8a1b-942ffe4da511" configVersion="48c41691bbd70d88df97cf189dd4a24d6c1190f9"/>
 		<Metadata name="Document.СчетНаОплату" id="b7ad0621-b1fd-477b-a440-54fb7f51b785" configVersion="2fbade5703e3f12a3ff901c9af5387d3ff87596e"/>
+		<Metadata name="Document.СчетФактураВыданный" id="7be4d048-1093-4646-b13e-d63f1a6ecaf8" configVersion="5983cd5f5dae0680591524e3a9ccb6ab9b0ed1d6"/>
 		<Metadata name="Language.Русский" id="08ea9211-c9ba-457a-b0c5-5a9551ed7eeb" configVersion="4eedbb2803fa3ca02b0e53b6e6f9bef109a871b9"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

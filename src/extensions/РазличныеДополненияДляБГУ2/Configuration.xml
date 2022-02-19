@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ФБУ "Ивановский ЦСМ"</Vendor>
-			<Version>1.0.0</Version>
+			<Version>1.1.0</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -69,7 +69,19 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<CommonModule>ПоискИУдалениеДублейПереопределяемый</CommonModule>
+			<Catalog>БанковскиеИКазначейскиеСчета</Catalog>
+			<Catalog>Договоры</Catalog>
+			<Catalog>Казначейства</Catalog>
+			<Catalog>Контрагенты</Catalog>
+			<Catalog>ЛицевыеСчета</Catalog>
+			<Catalog>Номенклатура</Catalog>
+			<Catalog>Подразделения</Catalog>
+			<Catalog>Сотрудники</Catalog>
+			<Catalog>ФизическиеЛица</Catalog>
+			<Catalog>ЮридическиеЛица</Catalog>
+			<Document>АктОбОказанииУслуг</Document>
 			<Document>СчетНаОплату</Document>
+			<Document>СчетФактураВыданный</Document>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

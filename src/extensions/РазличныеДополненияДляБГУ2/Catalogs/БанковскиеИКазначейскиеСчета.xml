@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<Catalog uuid="829174c3-4916-42ab-a308-d15835df3f61">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.БанковскиеИКазначейскиеСчета" category="Object">
+				<xr:TypeId>8093cc87-c16e-41f3-9992-6d17a2d084bb</xr:TypeId>
+				<xr:ValueId>706ae43f-63c9-4fa2-8951-15eeb4d2a10c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.БанковскиеИКазначейскиеСчета" category="Ref">
+				<xr:TypeId>efe8a57f-acdd-4f4f-9bf3-dfaab35c76e9</xr:TypeId>
+				<xr:ValueId>2d42e781-198b-411b-b654-08f319e82411</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.БанковскиеИКазначейскиеСчета" category="Selection">
+				<xr:TypeId>f8e7b3e7-cc95-4b86-9e56-07fbdb479af5</xr:TypeId>
+				<xr:ValueId>ce0e0475-b41c-47c1-894b-28777ee77142</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.БанковскиеИКазначейскиеСчета" category="List">
+				<xr:TypeId>542c22ea-2f11-463a-ad49-a757be0f890e</xr:TypeId>
+				<xr:ValueId>7079e3a0-605e-4af6-88cf-d81073c8e036</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.БанковскиеИКазначейскиеСчета" category="Manager">
+				<xr:TypeId>557c7a0c-8878-4827-9c2d-2ac9e4f04471</xr:TypeId>
+				<xr:ValueId>de7cb09f-7039-4f87-b3de-aa3be4e00f4c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БанковскиеИКазначейскиеСчета</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>35cd138b-4ec6-48fa-90fa-b8f5725bb395</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

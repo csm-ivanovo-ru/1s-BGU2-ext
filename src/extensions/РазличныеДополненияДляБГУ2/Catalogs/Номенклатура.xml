@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<Catalog uuid="efc534e7-a54a-46e1-bcfa-ec022563ca36">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Номенклатура" category="Object">
+				<xr:TypeId>fd0aac64-89c8-4842-a463-5a9a36c5a516</xr:TypeId>
+				<xr:ValueId>79cd932b-5f95-4a0c-82f1-9df25eb2eda3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Номенклатура" category="Ref">
+				<xr:TypeId>4ba1d3ee-4b72-4990-9e45-5a8aabbbefbb</xr:TypeId>
+				<xr:ValueId>f4a2aa16-8044-4cdc-852c-7dbffcea8aff</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Номенклатура" category="Selection">
+				<xr:TypeId>c777ccaf-9580-439a-8d06-9f372d4cb70d</xr:TypeId>
+				<xr:ValueId>d4b7fd37-d7c5-468b-ae02-93857cd2bbe5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Номенклатура" category="List">
+				<xr:TypeId>c98558e7-4753-4ef9-82c6-a2be22d84c0b</xr:TypeId>
+				<xr:ValueId>2aeb0380-7cb5-41b8-9150-73724298ae10</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Номенклатура" category="Manager">
+				<xr:TypeId>12dccd53-d929-4a0e-bd4f-480ea5f27c96</xr:TypeId>
+				<xr:ValueId>c6c5ca73-2e69-4075-ab74-0452955bdb7c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Номенклатура</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>59eda9b7-05d0-4f08-87dd-98cce2a33162</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>
