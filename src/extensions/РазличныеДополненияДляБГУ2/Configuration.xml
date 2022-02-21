@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ФБУ "Ивановский ЦСМ"</Vendor>
-			<Version>1.1.0</Version>
+			<Version>1.2.0</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -72,6 +72,7 @@
 			<Catalog>БанковскиеИКазначейскиеСчета</Catalog>
 			<Catalog>Договоры</Catalog>
 			<Catalog>Казначейства</Catalog>
+			<Catalog>КлассификаторЕдиницИзмерения</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>ЛицевыеСчета</Catalog>
 			<Catalog>Номенклатура</Catalog>
