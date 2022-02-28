@@ -29,6 +29,8 @@
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>51224b7e-9b98-4941-bb3b-1915db9dec2b</ExtendedConfigurationObject>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
 	</Catalog>
 </MetaDataObject>
