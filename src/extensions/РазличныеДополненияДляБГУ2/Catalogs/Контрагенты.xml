@@ -30,7 +30,151 @@
 			<ExtendedConfigurationObject>51224b7e-9b98-4941-bb3b-1915db9dec2b</ExtendedConfigurationObject>
 		</Properties>
 		<ChildObjects>
+			<Attribute uuid="8c513938-0b5b-41f2-bc31-1eaa7852e847">
+				<InternalInfo/>
+				<Properties>
+					<Name>ВидКонтрагента</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>9d089eaa-8330-415d-b839-3c2672acfb85</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ЮрФизЛицо</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e648f49d-e30b-4a41-92c5-f52cf075cbac">
+				<InternalInfo/>
+				<Properties>
+					<Name>ИНН</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>4823ee5c-7d9d-42a5-be4b-11720821ec70</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>12</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d81307f9-6617-4336-8c1d-48dfaed598ed">
+				<InternalInfo/>
+				<Properties>
+					<Name>КПП</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>9fbdb682-db6a-40fa-8086-739aece986c8</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>9</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="556adcce-0142-4a36-b757-7dca3f094b7c">
+				<InternalInfo/>
+				<Properties>
+					<Name>НаименованиеДП</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>bb6dae37-78c6-4ae6-be39-75f0894f5ac2</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>255</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9ddeedcb-46fe-4ea6-a2e2-0e1545198aee">
+				<InternalInfo/>
+				<Properties>
+					<Name>НаименованиеРП</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>2c8d6544-e4f6-4852-98e2-0680ef212868</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>255</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="653c26b7-4a16-4117-943e-83bee7c3910e">
+				<InternalInfo/>
+				<Properties>
+					<Name>НаименованиеСокращенное</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>b26470d7-18ad-4fde-ade4-82a444c8cb52</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>160</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ad1f36da-004b-4ff9-bfd0-85160bcdbeae">
+				<InternalInfo/>
+				<Properties>
+					<Name>ТипКонтрагента</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>c975dbc9-3784-4b1d-82e9-f899d2de367f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ТипыКонтрагентов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e64bc677-96ea-4ba5-9c8a-0a5c5ff668aa">
+				<InternalInfo/>
+				<Properties>
+					<Name>ЮридическоеФизическоеЛицо</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>5b55de15-754a-42da-bcb7-fe518bc4f871</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Form>ФормаЭлемента</Form>
+			<Command uuid="9f9546e2-55ad-46b3-afef-f39c506db7c9">
+				<Properties>
+					<Name>ИвЦСМ_ЗаполнитьПоИНН</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заполнить по ИНН</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Group>FormCommandBarImportant</Group>
+					<CommandParameterType>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</CommandParameterType>
+					<ParameterUseMode>Multiple</ParameterUseMode>
+					<ModifiesData>true</ModifiesData>
+					<Representation>Auto</Representation>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заполнение реквизитов контрагента по данным ЕГРЮЛ и ЕГРИП</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Picture/>
+					<Shortcut/>
+					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
+				</Properties>
+			</Command>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

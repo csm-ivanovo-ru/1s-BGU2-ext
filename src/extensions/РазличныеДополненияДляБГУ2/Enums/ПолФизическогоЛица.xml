@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<Enum uuid="43fc27de-037a-4446-8677-80226b167d3b">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ПолФизическогоЛица" category="Ref">
+				<xr:TypeId>b5b59307-eae9-4032-bd04-98a97dd04968</xr:TypeId>
+				<xr:ValueId>4a4997ca-63f1-435d-b9e9-b70fbe1b617a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ПолФизическогоЛица" category="Manager">
+				<xr:TypeId>31b3662d-2bc3-4120-9a60-4d8f0bdf2a17</xr:TypeId>
+				<xr:ValueId>1752894b-0c1c-4e49-a072-29a4f1520c87</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ПолФизическогоЛица" category="List">
+				<xr:TypeId>caa9f880-f1fa-4b67-b073-5bac15845085</xr:TypeId>
+				<xr:ValueId>c52a7de4-f1ed-4829-a594-b2bbcb8a09c5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПолФизическогоЛица</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>c35904cf-4954-434e-96fd-5ca537a88c66</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="f7454f8b-280a-4ec7-aa48-f82134bf653a">
+				<InternalInfo/>
+				<Properties>
+					<Name>Мужской</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>5545798f-72dc-4630-a5ba-88039f4bfe3c</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f2c48893-ff8f-4b0a-9bd9-dc11a51cd69a">
+				<InternalInfo/>
+				<Properties>
+					<Name>Женский</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>f293ac4b-91ed-4c97-90b3-bfe98c983a0f</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

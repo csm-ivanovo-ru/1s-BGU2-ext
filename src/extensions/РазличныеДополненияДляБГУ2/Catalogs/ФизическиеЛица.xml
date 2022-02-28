@@ -29,6 +29,125 @@
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>33e0072d-7d5b-4298-ae77-31a7cb358f5d</ExtendedConfigurationObject>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Attribute uuid="74563268-084d-431b-b3de-9cd18b554b10">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДатаРегистрации</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>99e4ae81-9f35-4530-8a91-3ff404dbe865</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ee35ccd1-c353-4652-bdfd-742a1d52b078">
+				<InternalInfo/>
+				<Properties>
+					<Name>ИНН</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>9fe6e4d9-8133-4ac8-8e86-75a9ffe31359</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>12</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6f67cb45-7830-474b-925e-d5bbe04f35b6">
+				<InternalInfo/>
+				<Properties>
+					<Name>КПП</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>b3040349-c5e1-494d-b81e-b59cfffddb3d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>9</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3368842c-e952-4023-b2d4-9968093a0857">
+				<InternalInfo/>
+				<Properties>
+					<Name>ОГРНИП</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>16e3ac0c-befb-472f-b3c3-0f8904b46d60</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>15</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="baec48b5-e679-45e0-b76b-3cc089617b33">
+				<InternalInfo/>
+				<Properties>
+					<Name>Пол</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>b27688c3-6682-45e1-a03f-0d2e8b1214e4</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ПолФизическогоЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a25d213f-c316-4e80-8cd6-233fa1bbb9c3">
+				<InternalInfo/>
+				<Properties>
+					<Name>СвидетельствоДата</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>7948b146-ab17-4efb-bf20-f06ee4b76dfe</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="34813de8-5254-4914-ad20-807cb5ec8037">
+				<InternalInfo/>
+				<Properties>
+					<Name>СвидетельствоСерияНомер</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>3cf3644c-75c2-4fba-8db4-3326ae9beec2</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>25</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="652bad3d-15d1-456a-8dbf-232d63d2c86c">
+				<InternalInfo/>
+				<Properties>
+					<Name>СтранаРегистрации</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>7be10d33-3dec-4b74-88b6-1883c95bd2b4</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтраныМира</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

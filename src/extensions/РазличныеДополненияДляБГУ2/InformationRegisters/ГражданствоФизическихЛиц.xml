@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<InformationRegister uuid="a8910de2-896d-4d52-aa96-1c57303f71cc">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ГражданствоФизическихЛиц" category="Record">
+				<xr:TypeId>c01d535c-88d6-47da-990b-aa7ad215e31a</xr:TypeId>
+				<xr:ValueId>96d27037-9093-484f-82a3-2584f217cce1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ГражданствоФизическихЛиц" category="Manager">
+				<xr:TypeId>765064b9-a4e4-4110-b927-d69681cf37be</xr:TypeId>
+				<xr:ValueId>641bb031-fa08-4413-8a0f-2fa7cf2c9fec</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ГражданствоФизическихЛиц" category="Selection">
+				<xr:TypeId>f77ba35f-9e35-456e-8de5-02366cc696d4</xr:TypeId>
+				<xr:ValueId>d4f8fdc1-33ff-44fc-9e4c-f324cfad817a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ГражданствоФизическихЛиц" category="List">
+				<xr:TypeId>274c6726-c2b8-4c8b-a47f-21d04a806010</xr:TypeId>
+				<xr:ValueId>56742fd0-a52b-430a-a3c3-6a485826c0da</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ГражданствоФизическихЛиц" category="RecordSet">
+				<xr:TypeId>e56dfc9e-0f58-440e-bfbe-05244dca15ee</xr:TypeId>
+				<xr:ValueId>40336063-dc1b-4327-b38e-aec758353b41</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ГражданствоФизическихЛиц" category="RecordKey">
+				<xr:TypeId>e9cc0165-30f0-4a4b-a5ce-3fd818fb5158</xr:TypeId>
+				<xr:ValueId>b9fe58ad-ac5f-41c4-953e-05aa94772d0e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ГражданствоФизическихЛиц" category="RecordManager">
+				<xr:TypeId>85168823-a236-4cc7-ae4d-e2b121c301a6</xr:TypeId>
+				<xr:ValueId>36097bd6-c053-4853-9285-a0fef7d02bc4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ГражданствоФизическихЛиц</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>6945ad1e-0156-4871-be53-1490e1967f34</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="42144d76-d6bb-43e9-aa89-0e698cd402c5">
+				<InternalInfo/>
+				<Properties>
+					<Name>Страна</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>4608e353-2c6f-4e37-a982-0d0b66ce9cdd</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтраныМира</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="853619b3-9f9f-44ae-ad7e-9ebf0eaed1e4">
+				<InternalInfo/>
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>edd9f109-2446-4ae3-92bd-25c044333b0a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

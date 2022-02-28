@@ -73,7 +73,12 @@
 			<StyleItem>ЦветФонаНекорректногоЗначенияБИП</StyleItem>
 			<StyleItem>ЦветТекстаНекорректногоКонтрагента</StyleItem>
 			<StyleItem>ФонУправляющегоПоля</StyleItem>
+			<CommonModule>Корреспонденты</CommonModule>
+			<CommonModule>ОбщегоНазначения</CommonModule>
+			<CommonModule>ОбщегоНазначенияВызовСервера</CommonModule>
+			<CommonModule>ОбщегоНазначенияКлиентСервер</CommonModule>
 			<CommonModule>ПоискИУдалениеДублейПереопределяемый</CommonModule>
+			<CommonModule>РаботаСКонтрагентами</CommonModule>
 			<Catalog>БанковскиеИКазначейскиеСчета</Catalog>
 			<Catalog>Договоры</Catalog>
 			<Catalog>Казначейства</Catalog>
@@ -83,11 +88,17 @@
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>Подразделения</Catalog>
 			<Catalog>Сотрудники</Catalog>
+			<Catalog>ТипыКонтрагентов</Catalog>
 			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>ЮридическиеЛица</Catalog>
+			<Catalog>СтраныМира</Catalog>
 			<Document>АктОбОказанииУслуг</Document>
 			<Document>СчетНаОплату</Document>
 			<Document>СчетФактураВыданный</Document>
+			<Enum>ЮрФизЛицо</Enum>
+			<Enum>ПолФизическогоЛица</Enum>
+			<InformationRegister>ГражданствоФизическихЛиц</InformationRegister>
+			<InformationRegister>ФИОФизическихЛиц</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

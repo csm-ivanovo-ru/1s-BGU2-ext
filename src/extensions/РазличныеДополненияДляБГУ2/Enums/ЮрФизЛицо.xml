@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<Enum uuid="2eb22ffb-7794-4f16-bee8-bd1a83a44367">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ЮрФизЛицо" category="Ref">
+				<xr:TypeId>d281c7bc-1380-4fbc-bf93-4dc684d242f4</xr:TypeId>
+				<xr:ValueId>f2eb2cbd-350c-4900-baad-a13a2d15be1e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ЮрФизЛицо" category="Manager">
+				<xr:TypeId>56063aff-5cbd-4966-a086-35872ef2a21a</xr:TypeId>
+				<xr:ValueId>44faa70d-2303-4889-80be-b1b17ecd74b1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ЮрФизЛицо" category="List">
+				<xr:TypeId>0c5b813f-ed4b-477d-b193-af4f32af0d15</xr:TypeId>
+				<xr:ValueId>3515b7ae-31df-4084-bba9-18488a25788f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЮрФизЛицо</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>75185633-3109-4206-9ad3-d36c02cd6da7</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="58e88a36-ceed-4349-82ec-0c53a2134ef9">
+				<InternalInfo/>
+				<Properties>
+					<Name>ЮрЛицо</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>2bd4e771-06fc-448e-8996-7224b5decfb8</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8220e40d-18ab-4761-b0e0-83baecbb21a3">
+				<InternalInfo/>
+				<Properties>
+					<Name>ФизЛицо</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>d0b1b215-a2c2-4328-aaf9-dfcfdba516a4</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
