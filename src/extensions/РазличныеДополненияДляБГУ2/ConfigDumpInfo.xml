@@ -12,7 +12,9 @@
 		</Metadata>
 		<Metadata name="Catalog.КлассификаторЕдиницИзмерения.Form.ФормаСписка" id="d8a20c47-2a8c-471e-8e9f-d2e0fbdcc8ef" configVersion="d25fbedb1f4bbd56c57569308d1c41e35cda833f"/>
 		<Metadata name="Catalog.КлассификаторЕдиницИзмерения.Form.ФормаСписка.Form" id="d8a20c47-2a8c-471e-8e9f-d2e0fbdcc8ef.0" configVersion="09fad7069bbfce5c788b982f316b4accab55a696"/>
-		<Metadata name="Catalog.Контрагенты" id="7d014f34-08b8-40cd-8500-ba1fbb0b9d83" configVersion="3aa60ec24a6987d5035bca44932f42ea15a65145"/>
+		<Metadata name="Catalog.Контрагенты" id="7d014f34-08b8-40cd-8500-ba1fbb0b9d83" configVersion="d4974c57a5804e21dcd24b050eac969166ce8ae9"/>
+		<Metadata name="Catalog.Контрагенты.Form.ФормаЭлемента" id="b8202789-254f-427a-9597-d7bb9f25493d" configVersion="960b237f34a5d5d12f78ededb9f3e7465e4c9e46"/>
+		<Metadata name="Catalog.Контрагенты.Form.ФормаЭлемента.Form" id="b8202789-254f-427a-9597-d7bb9f25493d.0" configVersion="29188d7f853001a0f0cba058cf11a27e54695727"/>
 		<Metadata name="Catalog.ЛицевыеСчета" id="e2131cab-0f13-4935-95c5-eaef15589849" configVersion="279a10623fcaa91de2b7b5c12cf5fdb6d7bff366"/>
 		<Metadata name="Catalog.Номенклатура" id="efc534e7-a54a-46e1-bcfa-ec022563ca36" configVersion="1e29dcb6ea3273250527e949b49292b3cbfd36c5"/>
 		<Metadata name="Catalog.Подразделения" id="5095eb98-b4cd-48a3-8675-680f4dc3d0ff" configVersion="e99baeae908216f6f476697c8e5e2c1ade12b457"/>
@@ -21,10 +23,14 @@
 		<Metadata name="Catalog.ЮридическиеЛица" id="45136e25-74af-43b4-8faf-473175b1ae81" configVersion="d5606450c03dae10ee07c2d9a26dd146a0c6b49e"/>
 		<Metadata name="CommonModule.ПоискИУдалениеДублейПереопределяемый" id="76e20445-51c5-44b3-b9b2-1a0a66cf4d70" configVersion="77ae054c302a7f1333a2961ae70c898caff9569c"/>
 		<Metadata name="CommonModule.ПоискИУдалениеДублейПереопределяемый.Module" id="76e20445-51c5-44b3-b9b2-1a0a66cf4d70.0" configVersion="a56aa37a8df5aafd4881615b1937e9fe3ce58576"/>
-		<Metadata name="Configuration.РазличныеДополненияДляБГУ2" id="564e11d8-e287-40cc-92a7-49099bb74b6b" configVersion="80eeb3532f81fe3af852d1760211784ae81453ae"/>
+		<Metadata name="Configuration.РазличныеДополненияДляБГУ2" id="564e11d8-e287-40cc-92a7-49099bb74b6b" configVersion="e3f371558e617059bef1a69953d8a3d4e0361d0a"/>
 		<Metadata name="Document.АктОбОказанииУслуг" id="fd8261e5-54b1-4c8e-8a1b-942ffe4da511" configVersion="48c41691bbd70d88df97cf189dd4a24d6c1190f9"/>
 		<Metadata name="Document.СчетНаОплату" id="b7ad0621-b1fd-477b-a440-54fb7f51b785" configVersion="2fbade5703e3f12a3ff901c9af5387d3ff87596e"/>
 		<Metadata name="Document.СчетФактураВыданный" id="7be4d048-1093-4646-b13e-d63f1a6ecaf8" configVersion="5983cd5f5dae0680591524e3a9ccb6ab9b0ed1d6"/>
 		<Metadata name="Language.Русский" id="08ea9211-c9ba-457a-b0c5-5a9551ed7eeb" configVersion="4eedbb2803fa3ca02b0e53b6e6f9bef109a871b9"/>
+		<Metadata name="StyleItem.ФонУправляющегоПоля" id="97b26987-2e7a-43b3-beb4-3b6f3407b85a" configVersion="df938bda0a25e7eea12755a9db4148ce90f75b81"/>
+		<Metadata name="StyleItem.ЦветВычисляемогоПоказателя" id="56544999-df00-41a9-94a5-17e679a94b6f" configVersion="94e8983631824b324590ffde5123e72a3b5d1b2a"/>
+		<Metadata name="StyleItem.ЦветТекстаНекорректногоКонтрагента" id="a3704501-633a-464f-9814-d896f22df703" configVersion="87c10d9512eaf92c4293ce6ba681d26316747e68"/>
+		<Metadata name="StyleItem.ЦветФонаНекорректногоЗначенияБИП" id="ab008b36-0866-481d-aa54-97ba9d535c01" configVersion="b3c8ac6b2b2380196e126177941ad99dcfb03ede"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
